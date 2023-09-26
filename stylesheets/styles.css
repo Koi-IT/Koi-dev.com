@@ -16,8 +16,9 @@ main{
     background-color: #3facff;
     width: 40%;
     text-decoration-color: aliceblue;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     opacity: 85%;
+    font-family:"Playfair";
+    font:500;
 }
 
 nav{
