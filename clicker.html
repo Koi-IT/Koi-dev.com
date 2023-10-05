@@ -4,24 +4,36 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Clicker!</title>
-    <a src="Stylesheets/Styles.css"></a>
-    <script src='big.js-master\big.js'></script>
-    <script src="JS/main.js"></script>
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <script src="js/main.js"></script>
     
 </head>
 
 <body>
 
-        <button onclick="buttonClick()">
+    <header class="center">
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="clicker.html">Clicker!</a>
+            <a href="calculator.html">Calculator</a>
+            <a href="about.html">About</a>
+            <a href=""></a>
+            <br>
+            <br>
+        </nav>
+    </header>
+
+    <main class="main">
+        <button class="button" onclick="buttonClick()">
             <h1>Click Me</h1>
-            <p id="num01" value="0" min="0" onkeypress="return event.charCode != 45">0</p>
+            <p id="num01" value="0" min="0" onkeypress="return event.charCode != 45"></p>
             <input type="text" id="inc01" value="0" min="0" onkeypress="return event.charCode != 45"></input>
         </button>
 
         <br />
         <br />
 
-        <button onclick="upgrade()">
+        <button class="" onclick="upgrade()">
             <h1>Upgrade</h1>
             <p> 1 </p>
             <input type="text" id="inc02" value="0" min="0" ></input>
@@ -30,32 +42,32 @@
         <br />
         <br />
          
-        <button onclick="">
+        <button class="" onclick="">
             <h1>Upgrade</h1>
             <p> 10 </p>
-            <input type="text" id="" value="0" onkeypress="return event.charCode != 45"></input>
+            <input type="text" id="inc03" value="0" onkeypress="return event.charCode != 45"></input>
         </button>
 
         <br />
         <br />
 
-        <button onclick="">
+        <button class="" onclick="">
             <h1>Upgrade</h1>
             <p> 50 </p>
-            <input type="text" id="" value="0" onkeypress="return event.charCode != 45"></input>
+            <input type="text" id="inc04" value="0" onkeypress="return event.charCode != 45"></input>
         </button>
 
         <br />
         <br />
 
-        <button onclick="">
+        <button class="" onclick="">
             <h1>Upgrade</h1>
             <p> 100 </p>
-            <input type="text" id="" value="0" onkeypress="return event.charCode != 45"></input>
+            <input type="text" id="inc05" value="0" onkeypress="return event.charCode != 45"></input>
         </button>
         <!-- <button onclick="onTimerTick()">
             <input type="text" id="Timer02" value="0"></input>
         </button> -->
-        
+    </main>
 </body>
 </html>
