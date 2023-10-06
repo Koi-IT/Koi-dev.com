@@ -25,6 +25,10 @@ nav{
     text-align: center;
 }
 
+p {
+    text-indent: 30px;
+}
+
 .br{
     max-height: 8px;
     margin: auto;
