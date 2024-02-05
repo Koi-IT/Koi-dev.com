@@ -1,0 +1,90 @@
+@import url(https://fonts.googleapis.com/css?family=Khula:700);
+
+.center, .header{
+    margin:20px auto 20px auto;
+    padding: 10px;
+    width: 40%;
+    background-color: #f1faee;
+    border-radius: 5px;
+    font-family:'Courier New', Courier, monospace;
+    opacity: 85%;
+    text-align: center;
+}
+
+main{
+    border-radius: 5px;
+    margin: 20px auto 20px auto;
+    padding: 10px;
+    background-color: #457b9d;
+    width: 40%;
+    text-decoration-color: aliceblue;
+    opacity: 85%;
+    font-family:"Playfair";
+    font:500;
+}
+
+nav{
+    text-align: center;
+}
+
+p {
+    text-indent: 30px;
+}
+
+.br{
+    max-height: 8px;
+    margin: auto;
+    border: 1px  solid;
+} 
+
+.footer{
+    margin: auto;
+    width: 50%;
+    text-align: center;
+}
+
+.hidden {
+  opacity:0;
+}
+
+.console-container {
+  font-family:Khula;
+  font-size:4em;
+  text-align:center;
+  height:200px;
+  width:600px;
+  display:block;
+  position:absolute;
+  color:#ef233c;
+  top:0;
+  bottom:0;
+  left:0;
+  right:0;
+  margin:auto;
+  display: flex;
+}
+
+.console-underscore {
+    display:inline-block;
+    position:relative;
+    top:-0.14em;
+    left:10px;
+}
+
+button{
+    display: flex;
+    margin: auto;
+    background-color: antiquewhite;
+    text-align: center;
+}
+
+#inc01,#inc02,#inc03,#inc04,#inc05 {
+    display: flex;
+    margin: auto;
+    background-color: antiquewhite;
+    text-align: center;
+}
+
+body{
+    background-color: #1d3557;
+}
