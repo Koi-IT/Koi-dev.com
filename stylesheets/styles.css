@@ -14,19 +14,21 @@ header {
 
 .header-nav {
     font-size: larger;
+    color: #f1faee;
 }
 
 body {
     background-color: #1d3557;
     scroll-behavior: smooth !important;
     margin: 0;
-    
+    text-align: center;
+    justify-content: center;
 }
 
 main {
     margin: 10px 40px 0px 40px;
     text-align: center;
-
+    color: #f1faee;
 }
 
 html {
@@ -63,6 +65,14 @@ footer {
 
 ul {
     text-align: left;
+    text-decoration-color: #a7ee23;
+}
+
+.abouth1{margin-top: ;}
+
+.abouthr {
+    margin-top: 3px;
+    margin-bottom: 60px;
 }
 
 hr {
@@ -73,6 +83,7 @@ hr {
 .firstname {
     color: #e63946;
     font-size: 50px;
+    animation-delay: 20ms;
     animation: lightSpeedInLeft;
     animation-duration: 1s;
 }
@@ -80,6 +91,7 @@ hr {
 .lastname {
     font-size: 50px;
     animation: lightSpeedInRight;
+    animation-delay: 20ms;
     animation-duration: 1.5s;
 }
 
@@ -87,7 +99,7 @@ hr {
     color: #f35865;;
     font-size: 50px;
     animation: pulse;
-    animation-delay: 2s;
+    animation-delay: 60ms;
     animation-duration: 1s;
 }
 
