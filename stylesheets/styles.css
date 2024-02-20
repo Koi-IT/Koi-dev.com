@@ -1,8 +1,7 @@
 body{
-  font-family: "Kode Mono", monospace;
   font-optical-sizing: auto;
-  font-weight: 20px;
-  font-style: normal;
+  font: 1.2em "Kode Mono", monospace;
+  font-weight: bold;
 }
 
 
@@ -67,8 +66,6 @@ ul {
     text-align: left;
     text-decoration-color: #a7ee23;
 }
-
-.abouth1{margin-top: ;}
 
 .abouthr {
     margin-top: 3px;
