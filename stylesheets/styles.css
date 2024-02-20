@@ -1,3 +1,11 @@
+body{
+  font-family: "Kode Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 20px;
+  font-style: normal;
+}
+
+
 header {
     text-align: right;
     margin: 10px 40px 0px 40px;
@@ -29,9 +37,11 @@ html {
     font-weight: 700;
 }
 
+p { color:#a8dadc}
+
 a { 
     text-decoration: none;
-    color: #a8dadc;
+    color: #a7ee23;
 }
 
 #github {
@@ -47,7 +57,7 @@ footer {
     position: static;
     float: inline-start;
     margin: auto;
-    color: #e63946;
+    color: #f35865;
     font-size: 50px;
 }
 
@@ -60,9 +70,25 @@ hr {
     margin-top: 60px;
 }
 
-.name {
+.firstname {
     color: #e63946;
     font-size: 50px;
+    animation: lightSpeedInLeft;
+    animation-duration: 1s;
+}
+
+.lastname {
+    font-size: 50px;
+    animation: lightSpeedInRight;
+    animation-duration: 1.5s;
+}
+
+.name {
+    color: #f35865;;
+    font-size: 50px;
+    animation: pulse;
+    animation-delay: 2s;
+    animation-duration: 1s;
 }
 
 .about {
@@ -106,7 +132,7 @@ hr {
 
 .block-hr {
     margin: auto;
-    border: 1px solid black;
+    border: 1px solid rgb457b9d;
 }
 
 @media screen {
