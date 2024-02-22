@@ -80,24 +80,22 @@ hr {
 .firstname {
     color: #e63946;
     font-size: 50px;
-    animation-delay: 20ms;
     animation: lightSpeedInLeft;
-    animation-duration: 1s;
+    animation-duration: 8s;
 }
 
 .lastname {
     font-size: 50px;
     animation: lightSpeedInRight;
-    animation-delay: 20ms;
-    animation-duration: 1.5s;
+    animation-duration: 8s;
 }
 
 .name {
     color: #f35865;;
     font-size: 50px;
     animation: pulse;
-    animation-delay: 60ms;
-    animation-duration: 1s;
+    animation-delay: 8s;
+    animation-duration: 2s;
 }
 
 .about {
