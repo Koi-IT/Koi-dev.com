@@ -81,20 +81,20 @@ hr {
     color: #e63946;
     font-size: 50px;
     animation: lightSpeedInLeft;
-    animation-duration: 8s;
+    animation-duration: 6s;
 }
 
 .lastname {
     font-size: 50px;
     animation: lightSpeedInRight;
-    animation-duration: 8s;
+    animation-duration: 6s;
 }
 
 .name {
     color: #f35865;;
     font-size: 50px;
     animation: pulse;
-    animation-delay: 8s;
+    animation-delay: 6s;
     animation-duration: 2s;
 }
 
