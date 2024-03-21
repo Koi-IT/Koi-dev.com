@@ -1,7 +1,11 @@
 body{
   font-optical-sizing: auto;
   font: 1.2em "Kode Mono", monospace;
-  font-weight: bold;
+}
+
+.card{
+    width: 80% ;
+    text-align: left;
 }
 
 
@@ -9,6 +13,14 @@ header {
     text-align: right;
     margin: 10px 40px 0px 40px;
     font-size: larger;
+}
+
+.navbar {
+    justify-content: end;
+    align-items: end;
+    text-align: right;
+    margin-left: auto;
+    margin-right: 0;
 }
 
 .header-nav {
@@ -25,9 +37,14 @@ body {
 }
 
 main {
-    margin: 10px 40px 0px 40px;
+    width: 80%;
+    margin: auto;
     text-align: center;
     color: #f1faee;
+}
+
+section{
+    margin: auto;
 }
 
 html {
@@ -35,7 +52,6 @@ html {
     color: #f1faee;
     font-size: larger;
     font-family: Roboto Condensed,Lato,Arial,sans-serif!important;
-    font-weight: 700;
 }
 
 p { color:#a8dadc}
@@ -74,7 +90,10 @@ ul {
 
 hr {
     border: 1px solid #457b9d;
-    margin-top: 60px;
+    margin: auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    width: 55%;
 }
 
 .firstname {
@@ -127,7 +146,7 @@ hr {
     background-color:#457b9d;
     border-radius: 20px;
     border-left: 1px solid #1d3557 ;
-    width: 50%;
+    width: 35%;
     margin: auto;
 }
 
@@ -143,5 +162,9 @@ hr {
 }
 
 @media screen {
+    
+}
+
+h2, p {
     
 }
