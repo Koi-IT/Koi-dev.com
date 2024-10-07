@@ -4,10 +4,9 @@ body{
 }
 
 .card{
-    width: 80% ;
+    width: 60% ;
     text-align: left;
 }
-
 
 header {
     text-align: right;
@@ -16,11 +15,14 @@ header {
 }
 
 .navbar {
-    justify-content: end;
-    align-items: end;
+    justify-content: right;
+    align-items: right;
     text-align: right;
-    margin-left: auto;
-    margin-right: 0;
+    color: #e76f51;
+}
+
+.nav-item{
+    color: #e76f51
 }
 
 .header-nav {
@@ -43,7 +45,12 @@ main {
     color: #f1faee;
 }
 
+.nav-link {
+    color: #e76f51;
+}
+
 section{
+    width: 60%;
     margin: auto;
 }
 
@@ -58,7 +65,7 @@ p { color:#a8dadc}
 
 a { 
     text-decoration: none;
-    color: #a7ee23;
+    color: #e76f51;
 }
 
 #github {
@@ -80,7 +87,7 @@ footer {
 
 ul {
     text-align: left;
-    text-decoration-color: #a7ee23;
+    text-decoration-color: #e76f51;
 }
 
 .abouthr {
@@ -110,7 +117,7 @@ hr {
 }
 
 .name {
-    color: #f35865;;
+    color: #f35865;
     font-size: 50px;
     animation: pulse;
     animation-delay: 6s;
@@ -165,6 +172,3 @@ hr {
     
 }
 
-h2, p {
-    
-}
