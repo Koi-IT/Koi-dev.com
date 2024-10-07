@@ -1,0 +1,9 @@
+# ToDo
+
+- refactor CSS
+- remove unnecessary files
+- write about section
+- fill portfolio 
+- learn from bootstrap resources
+- implement bootstrap
+- redesign look
