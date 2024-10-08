@@ -1,4 +1,4 @@
-/* body{
+body{
   font-optical-sizing: auto;
   font: 1.2em "Kode Mono", monospace;
 }
@@ -27,11 +27,11 @@ header {
 .header-nav {
     text-align: center;
     font-size: larger;
-    color: #f1faee;
+    color: #a8dadc;
 }
 
 body {
-    background-color: #6d819c;
+    background-color: #1d3557;;
     scroll-behavior: smooth !important;
     margin: 0;
     text-align: center;
@@ -42,7 +42,7 @@ main {
     width: 80%;
     margin: auto;
     text-align: center;
-    color: #747e88;
+    color: #a8dadc;
 }
 
 .nav-link {
@@ -52,6 +52,10 @@ main {
 section{
     width: 60%;
     margin: auto;
+}
+
+h2 {
+    color: #f1faee;
 }
 
 html {
@@ -166,4 +170,4 @@ hr {
 .block-hr {
     margin: auto;
     border: 1px solid rgb457b9d;
-}
+} 
