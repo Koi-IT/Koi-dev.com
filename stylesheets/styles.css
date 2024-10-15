@@ -94,6 +94,10 @@ header {
     border-radius: 50px;
 }
 
+.pressed {
+    color: #0000EE;
+}
+
 /* Main Content Styles */
 .card {
     width: 60%;
@@ -109,6 +113,16 @@ main {
     width: 80%;
     margin: auto;
     color: #a8dadc;
+}
+
+.work-square {
+    min-width: 50%;
+
+}
+
+table {
+    min-width: 100%;
+    min-height: 100%;
 }
 
 /* Section Styles */
