@@ -95,7 +95,7 @@ header {
 }
 
 .pressed {
-    color: #0000EE;
+    color: #a8dadc !important;
 }
 
 /* Main Content Styles */
@@ -140,13 +140,6 @@ hr {
 /* Footer Styles */
 footer {
     text-align: center;
-}
-
-/* About Styles */
-.about {
-    background-color: #e76f51;
-    padding: 20px;
-    border-radius: 20px;
 }
 
 /* Animation Styles */
