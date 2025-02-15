@@ -1,107 +1,99 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&display=swap" rel="stylesheet">
-        <link
-        rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-        />
-        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-        <link rel="stylesheet" href="stylesheets/styles.css"></link>
-        <title>Koi-dev</title>
-        <link rel="icon" href="images/icons8-koi-fish-64.png">
-        <link rel="canonical" href="portfolio">
-    </head>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.colors.min.css">
+    <link rel="stylesheet" href="css/pico.colors.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Audiowide&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <title>Koi-dev</title>
+    <link rel="stylesheet" href="css/styles.css"></link>
+    <link rel="icon" href="images/icons8-koi-fish-64.png">
+    <link rel="canonical" href="portfolio">
+</head>
+
 <body>
 
-    <header class="center">
-        <div>
-            <nav class="navbar navbar-expand">
-                <h1 class="title">
-                    Koi-dev
-                </h1>
-
-                <div class="menu-toggle">
-                    <span class="bar"></span>
-                    <span class="bar"></span>
-                    <span class="bar"></span>
-                </div>
-
-                <ul class="nav-links">
-                    <li class="pressed"><a class="nav-link pressed" href="/">Home</a></li>
-                    <li><a class="nav-link" href="work.html">Work</a></li>
-                    <li><a class="nav-link" href="about.html">About</a></li>
-                    <li><a class="nav-link" href="/#contact">Contact</a></li>
-                </ul>
-
-            </nav>
-        </div>
+    <header class="container">
+        <nav>
+            <ul>
+                <li><a  href="/"><img src="images/icons8-koi-fish-64.png" alt="Koi-Dev Logo"></a></li>
+                <li><h1 class="audiowide-regular" pico-color-indigo-400" >Koi-Dev</h1></li>
+            </ul>
+            <ul>
+                <li><a aria-current="page" href="/">Home</a></li>
+                <li><a href="work.html">Work</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
     </header>
 
-    <div class="deco"></div>
+    <main class="container pico-color-indigo-500">
 
-    <main class="main">
-        <h1 class="name animated-element" ><div class="firstname">Andrew</div><div class="lastname">Johnson</div></h1>
-        <hr></hr>
-        <section>
-            <h2 class="center">Personal Portfolio</h2>
-            <hr></hr>
-            <section id="resume">
-                <h2>Resume</h2>
-                    <a href="Resume.pdf" download>Download a copy here!</a>
-            </section>
-        </section>
-        <hr></hr>
-            <div class="card-body bg-primary bg-gradient">
-                <section id="objective">
-                            <h2 class="center"> Objective </h2>
-                                <div class="row">
-                                    <div class="col">
-                                        <p>To learn how to fully utilize the technologies that we use day to day, how they work, and how to engage in the creative process of web and software development. To become through hard work and determination a full stack developer. </p>
-                                    </div>
-                            </div>
-                        </div>
-                    </div>
-                </div> 
-            </section>
-        <hr></hr>
-            <div class="card-body bg-primary bg-gradient">
-                <section id="education">
-                    <h2 class="center">Education</h2>
-                        <p><b>Madison Area Technical College</b> - <i>IT Web & Software Development Associates Degree</i></p>
-                        <p>August 2023 - Present</p>
-                    <!-- <h2>Certifications</h2> -->
-                </section>
+        <div class="hero">
+            <div>
+                <h1 class="pico-color-indigo-400">Andrew Johnson</h1>
+                <p class="pico-color-azure-200">Web Developer</p>
             </div>
-        <hr></hr>
-            <section id="work">
-                <h2>Gihub</h2>
-                <p class="footer"><a href =  "https://github.com/Koi-it/"></a><a id="github" href="https://github.com/Koi-it/">Koi-IT</a></p>
-            </section>
-        <hr></hr>
         </div>
-            <section id="contact">
-                <h2>Contact</h2>
-                    <a href="mailto:ajohnson@koi-dev.com">ajohnson@koi-dev.com</a> 
-            </section>
+
+
+        <article>
+            <h2>What I'm working on right now!</h2>
+            <hr>
+            <p><a href="https://github.com/Koi-IT/Roomley">Roomley</a></p>
+
+            <p>Living with roommates can sometimes be a hassle. 
+                Dividing up chores can be tough when its so easy to forget 
+                who does what and when. There are many ways to handle this 
+                manually but often its hard to keep track of everything and 
+                stay consistent. Keeping consistent is key in keeping clean 
+                living spaces and a fair distribution of chores.
+            </p>
+            <p>Enter Roomley, an app that handles the annoying task of 
+                keeping track of tasks to get done. Roomley handles reminders,
+                 grocery shopping together, and hopefully splitting bills easily.</p>
+        </article>
+
+        <article id="education">
+            <h2>Education</h2>
+            <hr>
+                <p><b>Madison Area Technical College</b> - <i>IT Web & Software Development Associates Degree</i></p>
+                <p>2023 - 2025</p>
+            <!-- <h2>Certifications</h2> -->
+        </article>
+
+
+        <!-- <article>
+            <h2>Resume</h2>
+                <embed class="pdf" src="Resume.pdf">Download a copy here!</embed>
+        </article> -->
+
+        <article>
+            <h2>Github</h2>
+            <hr>
+            <p><a id="github" href="https://github.com/Koi-it/">Koi-IT</a></p>
+        </article>
+
+        <article id="contact">
+            <h2>Contact</h2>
+                <hr>
+                <p>Email: <a href="mailto:ajohnson@koi-dev.com">ajohnson@koi-dev.com</a></p>
+        </article>
 
     </main>
 
-    <div class="deco"></div>
-
-    <footer class ="center">
-        <nav class="footer">
-            <p><a href="/about.html">More About Me</a>
-            <p>Andrew Johnson 2024</p>
-        </nav>
+    <footer class ="container">
+        <p><a href="about.html">More About Me</a></p>
+        <p>Andrew Johnson 2024</p>
     </footer>
-
-    <script src="javascript/script.js"></script>
 
 </body>
 </html>

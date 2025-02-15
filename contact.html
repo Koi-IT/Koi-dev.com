@@ -16,6 +16,8 @@
     <link rel="stylesheet" href="css/styles.css"></link>
     <link rel="icon" href="images/icons8-koi-fish-64.png">
     <link rel="canonical" href="portfolio">
+    <link rel="JavaScript" href="">
+    
 </head>
 
 <body>
@@ -28,30 +30,28 @@
             </ul>
             <ul>
                 <li><a href="/">Home</a></li>
-                <li><a href="work.html">Work</a></li>
-                <li><a aria-current="page" href="about.html">About</a></li>
-                <li><a href="contact.html">Contact</a></li>
+                <li><a aria-current="page" href="work.html">Work</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.hmtl">Contact</a></li>
             </ul>
         </nav>
     </header>
 
     <main class="container pico-color-indigo-500">
-
         <article>
-            <h2>More About Me</h2>
-
-            <p class="font-weight-bold">My name is Andrew! I am transitioning into the IT sector and I am excited to get into the field!
-                I had been working in the food service industry for about 6 years and I've finally decided that I needed a change.
-                During my time in the food service industry I have held just about every position you could imagine from line cook to server and even some management roles in the past.
-                <br><br>
-                I have found a great passion for IT over the last few years and my future seems brighter than ever! I hope to persue my passion in IT and move on to become a great Software Developer.</p>
-        </section>
-        </article>
-
-
-        <article>
-            <h2>Resume</h2>
-                <embed class="pdf" src="Resume.pdf"></embed>
+            <h2>Contact</h2>
+            <hr>
+            <form action="POST">
+                <label for="first_name" >First Name:</label>
+                <input type="text" id="first_name" placeholder="Your first name" autocomplete="given-name" required>
+                <label for="last_name">Last Name:</label>
+                <input type="text" id="last_name" placeholder="Your last name" autocomplete="given-name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" placeholder="Your email" autocomplete="email" required>
+                <label for="message">Message:</label>
+                <textarea id="message" placeholder="Your message here" maxlength="550" required></textarea>
+                <button type="submit" value="sendMessage">Submit</button>
+            </form>
         </article>
 
     </main>
@@ -60,6 +60,23 @@
         <p><a href="about.html">More About Me</a></p>
         <p>Andrew Johnson 2024</p>
     </footer>
+
+    <script>
+        init();
+    </script>
+    <script src="https://smtpjs.com/v3/smtp.js">
+        Email.send({
+            Host : "smtp.mailendo.com",
+            Username : "username",
+            Password : "password",
+            To : 'them@website.com',
+            From : "you@isp.com",
+            Subject : "This is the subject",
+            Body : "And this is the body"
+        }).then(
+          message => alert(message)
+        );
+    </script>
 
 </body>
 </html>
