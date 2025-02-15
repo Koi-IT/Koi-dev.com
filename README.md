@@ -1,4 +1,3 @@
 # Koi-dev.com
 
-This is my resume website!
-
+My Portfolio website!
